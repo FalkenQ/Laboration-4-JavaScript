@@ -1,7 +1,7 @@
 /*
 Detta är ett javascript som lagrar namn, ålder och ifall personen är en student.
 För att kunna skriva ut det i terminalen.
-Linus Falk.
+Författare: Linus Falk.
 */
 
 "use strict";
