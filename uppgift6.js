@@ -1,11 +1,7 @@
 /*
-Detta är ett program för att skapa en "food" array med 5 måltider.
-Programmet skriver ut hela arrayen, första elementet, sista elementet.
-Programmet lägger till en måltid/element sist i arrayen.
-Programmet tar bort första måltiden/elementet och flyttar ner alla element ett steg.
-Sist skriver programmet ut de nuvarande elementen/måltider som finns i food arrayen.
+Detta är ett program för att beräkna arean av en rektangel med olika värden.
 
-Programmet innehåller en array som sen använder sig av push och shift för att utföra sin uppgift.
+Programmet innehåller en funktion som blir tillkallad vid 3 olika tillfällen med olika värden.
 
 Författare: Linus Falk.
 */
@@ -19,5 +15,11 @@ function calculateArea(a, b) {
 
 }
 
-// Anropar funktionen calculateArea
+// Anropar funktionen calculateArea 10 * 6
 console.log(calculateArea(10, 6));
+
+// Anropar funktionen calculateArea 15 * 32
+console.log(calculateArea(15, 32));
+
+// Anropar funktionen calculateArea 3 * 5
+console.log(calculateArea(3, 5));
