@@ -7,14 +7,4 @@ Författare: Linus Falk.
 
 "use strict";
 
-// for loop för talföljden 1-20
-for (let i = 1; i <= 20; i++ ) {
-    console.log("Numret är " + i);
-}
-
-// for loop för talföljden 1-20 men bara jämna tal
-for (let i = 1; i <= 20; i++) {
-    if (i % 2 === 0) {
-        console.log("Det jämna talet är " + i);
-    }
-}
+const food = [Soup, Spaghetti, Pizza, Sushi, Ramen];
