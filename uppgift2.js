@@ -1,5 +1,6 @@
 /*
 Detta är ett program som räknar ut priset med moms och utan moms på antalet mjölk kartonger.
+Koden består av variabler och konstanter som används för ekvationerna för att räkna ut priset på mjölk med eller utan moms.
 Författare: Linus Falk.
 */
 
