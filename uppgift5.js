@@ -7,4 +7,10 @@ Författare: Linus Falk.
 
 "use strict";
 
-const food = [Soup, Spaghetti, Pizza, Sushi, Ramen];
+const food = ["Soup", "Spaghetti", "Pizza", "Sushi", "Ramen"];
+
+// Hela arrayen utskriven
+console.log(food);
+
+// Första elementet
+console.log("Your food is " + food[0]);
