@@ -1,7 +1,12 @@
 /*
-Detta är ett program som skriver ut alla tal mellan 1-20 och även alla jämna tal mellan 1-20.
-Koden består av två for loopar. Den första skriver ut alla tal 1-20.
-for loop två skriver bara ut de jämna talen i talföljden 1-20.
+Detta är ett program för att skapa en "food" array med 5 måltider.
+Programmet skriver ut hela arrayen, första elementet, sista elementet.
+Programmet lägger till en måltid/element sist i arrayen.
+Programmet tar bort första måltiden/elementet och flyttar ner alla element ett steg.
+Sist skriver programmet ut de nuvarande elementen/måltider som finns i food arrayen.
+
+Programmet innehåller en array som sen använder sig av push och shift för att utföra sin uppgift.
+
 Författare: Linus Falk.
 */
 
@@ -9,19 +14,22 @@ Författare: Linus Falk.
 
 const food = ["Soup", "Spaghetti", "Pizza", "Sushi", "Ramen"];
 
-// Hela arrayen utskriven
+// 1. Hela arrayen utskriven
 console.log(food);
 
-// Första elementet
+// 2. Första elementet
 console.log("Your food is " + food[0]);
 
-// Sista elementet
+// 3. Sista elementet
 console.log("Your food is " + food[4]);
 
-// Lägger till en maträtt sist i min array och skriver ut arrayen
+// 4. Lägger till en maträtt sist i min array och skriver ut arrayen
 food.push("Bolognese");
 console.log(food);
 
-// Tar bort första maträtten ur arrayen och skriver ut arrayen
+// 5. Tar bort första maträtten ur arrayen och skriver ut arrayen
 food.shift(food);
 console.log(food);
+
+// 6. Skriver ut arrayen igen
+console.log("Detta är de nuvarande elementen/måltider i food arrayen: " + food);
