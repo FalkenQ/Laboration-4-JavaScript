@@ -17,3 +17,11 @@ console.log("Your food is " + food[0]);
 
 // Sista elementet
 console.log("Your food is " + food[4]);
+
+// Lägger till en maträtt sist i min array och skriver ut arrayen
+food.push("Bolognese");
+console.log(food);
+
+// Tar bort första maträtten ur arrayen och skriver ut arrayen
+food.shift(food);
+console.log(food);
