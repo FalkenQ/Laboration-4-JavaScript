@@ -16,4 +16,8 @@ Författare: Linus Falk.
 function calculateArea(a, b) {
    const area = a * b;
    return area;
+
 }
+
+// Anropar funktionen calculateArea
+console.log(calculateArea(10, 6));
