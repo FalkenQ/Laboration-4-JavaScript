@@ -14,3 +14,6 @@ console.log(food);
 
 // Första elementet
 console.log("Your food is " + food[0]);
+
+// Sista elementet
+console.log("Your food is " + food[4]);
