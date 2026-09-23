@@ -5,8 +5,10 @@ Författare: Linus Falk.
 
 "use strict";
 
-const age = 25;
+const age = 16;
 
 if (age > 17) {
-    console.log("Du är vuxen.");
+    console.log("Du är myndig.");
+} else if (age < 18) {
+    console.log("Du är fortfarande inte myndig.")
 }
