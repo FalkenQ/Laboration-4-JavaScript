@@ -25,3 +25,15 @@ const people = [
         age: 67
     }
 ]
+
+function personInformation(peopleObject) {
+    if (peopleObject.age < 18) {
+        console.log(peopleObject.name + " " + peopleObject.lastName + " är inte myndig.")
+    } else {
+        console.log(peopleObject.name + " " + peopleObject.lastName + " är myndig.")
+    }
+}
+
+for (let i = 0; i < people.length; i++) {
+    
+}
