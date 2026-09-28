@@ -1,20 +1,30 @@
 /*
-Detta är ett program för att addera ihop summan av talen i arrayen number.
-Programmet består av en array av tal och en funktion som sedan blir anropad för att skriva ut summan av talen.
+Detta är ett program som tar emot ett objekt (book) och dess egenskaper.
+För att ta emot dem i funktionen som tar emot book som parameter för att kunna skriva ut dess egenskaper.
+Som till slut anropas funktionen bookInformation för att skriva ut all information.
+
+Programmet består av ett objekt (book),
+en funktion (bookInformation) för att ta emot objektet
+och ett anrop för att skriva ut all information.
 
 Författare: Linus Falk.
 */
 
 "use strict";
 
+// Book objekt och dess egenskaper
 const book = {
     title: "Harry Potter and the Philosopher's Stone",
     author: "J.K Rowling",
     release: 1997
 }
 
-function bookInformation(book) {
-    console.log("Title: " + book.title);
-    console.log("Author: " + book.author);
-    console.log("Release year: " + book.release);
+// Funktionen för att ta emot boken som en parameter och dess egenskaper
+function bookInformation(bookObject) {
+    console.log("Title: " + bookObject.title);
+    console.log("Author: " + bookObject.author);
+    console.log("Release year: " + bookObject.release);
 }
+
+// Anropar min funktion för att skriva ut book objektet
+bookInformation(book);
