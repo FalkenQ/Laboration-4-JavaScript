@@ -6,3 +6,22 @@ Författare: Linus Falk.
 */
 
 "use strict";
+
+// Array med tre objekt av personers namn och ålder
+const people = [
+    {
+        name: "Alexander",
+        lastName: "Rapp",
+        age: 25
+    },
+    {
+        name: "Alicia",
+        lastName: "Falk",
+        age: 15
+    },
+    {
+        name: "Peter",
+        lastName: "Falk",
+        age: 67
+    }
+]
